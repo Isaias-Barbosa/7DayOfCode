@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10.5em;
+    gap: 1em;
+}
+
+.metricas {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.metricas h1 {
+    color: var(--vermelho);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.metricas span {
+    color: var(--preto--titulo);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.metricas p {
+    color: var(--preto-login);
+    font-size: 1em;
+    font-weight: 400;
+
+}

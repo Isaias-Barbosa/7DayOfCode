@@ -1,0 +1,55 @@
+@import url("./cabecalho/cabecalho.css");
+@import url("./sobre/about.css");
+@import url("./metricas/metricas.css");
+@import url("./banner/banner.css");
+@import url("./vagas/vagas.css");
+@import url("./depoimentos/depoimentos.css");
+@import url("./form/formulario.css");
+
+
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #3A404E;
+    --preto-login: #667085;
+    --vermelho: #8E2424;
+    --preto--titulo: #101828;
+    --fonte-principal: "Inter";
+    --branco-footer: #F9FAFB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    height: 100vh;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}

@@ -1,0 +1,46 @@
+.container__vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.vagas__descricao {
+    padding: 1em 0;
+    gap: 2em;
+    margin: 0 34em;
+    padding-bottom: 1em;
+}
+
+.vagas__descricao h1 {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--preto--titulo);
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 28px;
+    gap: 3em;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    box-sizing: border-box;
+    margin: 2em 0;
+}
+
+.itens h3 {
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--preto--titulo);
+}
+
+.itens span {
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--preto-login);
+    margin: 0 1em;
+}

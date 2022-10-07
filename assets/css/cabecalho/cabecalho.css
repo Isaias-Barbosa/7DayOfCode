@@ -1,0 +1,66 @@
+/*CABEÇALHO 
+*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.nav__titulo {
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--preto);
+}
+
+.nav__itens {
+    display: flex;
+    gap: 40px;
+    margin-right: 17em;
+}
+
+.nav__itens a {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--preto-login);
+}
+
+.nav__login {
+    display: flex;
+    gap: 12px;
+}
+
+.nav__login--entrar {
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--preto-login);
+    padding: 0.7em 1em;
+    gap: 8px;
+}
+
+.nav__login--entrar:hover {
+    background: var(--vermelho);
+    color: var(--branco);
+
+}
+
+.nav__cadastro {
+    border: 1px solid var(--vermelho);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    padding: 0.7em 1em;
+    background: var(--vermelho);
+    border-radius: 8px;
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: 500;
+}
